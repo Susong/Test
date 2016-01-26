@@ -57,8 +57,9 @@ public class FileUpload {
 		in.close();
 		out.close();
 
+		System.out.println("code : " + conn.getResponseCode());
 		if (conn.getResponseCode() == 200) {
-			System.out.println("上传成功");
+			System.out.println("涓婁紶鎴愬姛");
 		}
 	}
 
